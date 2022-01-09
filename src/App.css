@@ -2,8 +2,18 @@
   
 } */
 
-.header {
+header {
   font-family: 'PixelOperatorMonoHBRegular'; 
-  font-size: 2em;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.sneakers {
+  width: 2em;
 }
