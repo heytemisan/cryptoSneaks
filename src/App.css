@@ -57,3 +57,12 @@ button {
   height: 48px;
   width: 85px;
 }
+
+.span {
+  font-size: small;
+  font-family: 'IndustrialRegular';
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: rgb(15, 15, 23);
+}
