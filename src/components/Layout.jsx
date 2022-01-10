@@ -15,8 +15,8 @@ import allstar from '../assets/allstar.png'
 
 const Grid = styled.div `
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 300px 300px 300px 300px;
     grid-template-areas: 
     "nav nav nav nav"
     "sidebar main main main"
@@ -30,6 +30,8 @@ const Grid = styled.div `
 
     .content1 {
         background-color:grey;
+        padding-left:10px;
+        padding-right:10px;
     }
 
     .item_flex {
@@ -42,7 +44,8 @@ const Grid = styled.div `
     }
 
     .item_img {
-        width:30px;
+        margin-top:40px;
+        width:100px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -88,7 +91,7 @@ const Sdata = [
         city: "Chicago",
         price: "0.25 ETH",
         img:reebok,
-        bgColor: "#343838",
+        bgColor: "#3FB8AF",
     },
     {
         id:5,
