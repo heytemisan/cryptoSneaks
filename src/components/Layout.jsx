@@ -6,6 +6,13 @@ import sneakers from '../assets/sneakers.png';
 import yeezy from '../assets/yeezy.png';
 import airMax from '../assets/airMax.png';
 
+import reebok from '../assets/reebok.png';
+import puma from '../assets/puma.png';
+import gucci from '../assets/gucci.png';
+import adidass from '../assets/adidass.png'
+import jordan from '../assets/jordan.png'
+import allstar from '../assets/allstar.png'
+
 const Grid = styled.div `
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -77,63 +84,52 @@ const Sdata = [
         id:4,
         id_no:"#00004",
         date: "11.01.22",
-        sname: "Black Menta",
+        sname: "Reebok",
         city: "Chicago",
         price: "0.25 ETH",
-        img:yeezy,
+        img:reebok,
         bgColor: "#343838",
     },
     {
         id:5,
         id_no:"#00005",
         date: "11.01.22",
-        sname: "Black Menta",
+        sname: "AirMax",
         city: "Chicago",
         price: "0.25 ETH",
         img:airMax,
-        bgColor: "#E8D5B9",
+        bgColor: "#170409",
     },
     {
         id:6,
         id_no:"#00005",
         date: "11.01.22",
-        sname: "Black Menta",
+        sname: "All Stars1",
         city: "Chicago",
         price: "0.25 ETH",
-        img:airMax,
-        bgColor: "#E8D5B9",
+        img:allstar,
+        bgColor: "#CBE86B",
     },
     {
         id:7,
         id_no:"#00005",
         date: "11.01.22",
-        sname: "Black Menta",
+        sname: "Adidas",
         city: "Chicago",
         price: "0.25 ETH",
-        img:airMax,
-        bgColor: "#E8D5B9",
+        img:adidass,
+        bgColor: "#033649",
     },
     {
         id:8,
         id_no:"#00005",
         date: "11.01.22",
         sname: "Black Menta",
-        city: "Chicago",
+        city: "Gucci",
         price: "0.25 ETH",
-        img:airMax,
-        bgColor: "#E8D5B9",
-    },
-    {
-        id:9,
-        id_no:"#00005",
-        date: "11.01.22",
-        sname: "Black Menta",
-        city: "Chicago",
-        price: "0.25 ETH",
-        img:airMax,
-        bgColor: "#E8D5B9",
-    },
-
+        img:gucci,
+        bgColor: "#ED303C",
+    }
 ]
 
 
