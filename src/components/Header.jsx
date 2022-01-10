@@ -15,6 +15,7 @@ function Header() {
                 <input type="email" placeholder="you@yourmail.com"/>
                 <button type="submit">Sign Me Up</button>
             </form>
+            <p>Email address used so</p>
         </div>
     )
 }

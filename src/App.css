@@ -43,6 +43,10 @@ input {
   /* margin: 8px 0; */
 }
 
+input::placeholder {
+  font-family: 'IndustrialRegular'; 
+}
+
 button {
   font-family: 'IndustrialRegular'; 
   color: white;
