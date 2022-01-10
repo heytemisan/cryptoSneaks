@@ -1,6 +1,6 @@
 import React from 'react'
 
-const subHeader = () => {
+const Hero = () => {
     return (
         <div>
             <h1>Collectibe kicks for the digital age</h1>
@@ -8,4 +8,4 @@ const subHeader = () => {
     )
 }
 
-export default subHeader
+export default Hero
