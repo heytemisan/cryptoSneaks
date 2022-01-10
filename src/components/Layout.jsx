@@ -52,6 +52,7 @@ const Grid = styled.div `
         color:#fff;
         font-family: 'IndustrialRegular'; 
         font-weight:800;
+        line-height: 0;
     }
 
     .item_price {
@@ -59,7 +60,6 @@ const Grid = styled.div `
         font-family: 'IndustrialRegular'; 
         font-weight:800;
         font-size:1rem;
-        padding-bottom:5px;
     }
 
     .item_img {
