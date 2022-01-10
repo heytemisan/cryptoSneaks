@@ -43,6 +43,15 @@ const Grid = styled.div `
         font-size:10px;
     }
 
+    .item_name {
+        color:#fff;
+        font-family: 'IndustrialRegular'; 
+    }
+
+    .item_price {
+
+    }
+
     .item_img {
         margin-top:40px;
         width:100px;
@@ -78,7 +87,7 @@ const Sdata = [
         id_no:"#00003",
         date: "11.01.22",
         sname: "All Stars",
-        city: "Lightening McQueen",
+        city: "McQueen",
         price: "0.25 ETH",
         img:allstars,
         bgColor: "#FF9C00",
@@ -88,7 +97,7 @@ const Sdata = [
         id_no:"#00004",
         date: "11.01.22",
         sname: "Reebok",
-        city: "Chicago",
+        city: "Nigeria",
         price: "0.25 ETH",
         img:reebok,
         bgColor: "#3FB8AF",
