@@ -19,6 +19,12 @@ const Grid = styled.div `
     padding-right:40px;
     margin-top: 30px;
 
+
+    @media screen and (max-width: 755px) {
+        grid-template-columns: 0.8fr 0.8fr;
+        grid-template-rows: 300px 300px;
+    }
+    
     .content1 {
         background-color:grey;
         padding-left:10px;
@@ -66,7 +72,7 @@ const Grid = styled.div `
         @media screen and (max-width: 550px) {
                 grid-template-columns: 1fr;
                 grid-template-rows:0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
-    }
+    }}
 `
 
 const Sdata = [
