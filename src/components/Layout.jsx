@@ -20,11 +20,11 @@ const Grid = styled.div `
     margin-top: 30px;
 
 
-    @media screen and (max-width: 755px) {
+    @media screen and (max-width: 900px) {
         grid-template-columns: 0.8fr 0.8fr;
         grid-template-rows: 300px 300px;
     }
-    
+
     .content1 {
         background-color:grey;
         padding-left:10px;
