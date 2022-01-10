@@ -1,5 +1,5 @@
 import React from 'react'
-import sneakerLogo from '../img/sneakers.png';
+import sneakerLogo from '../assets/sneakers.png';
 import SubHeader from './SubHeader';
 
 function Header() {

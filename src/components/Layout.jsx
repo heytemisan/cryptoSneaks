@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components';
-import images from '../assets';
+import allstars from '../assets/allstars.png';
+import brightBlue from '../assets/brightBlue.png';
+import sneakers from '../assets/sneakers.png';
+import yeezy from '../assets/yeezy.png';
+import airMax from '../assets/airMax.png';
 
 const Grid = styled.div `
     display:grid;
@@ -29,6 +33,13 @@ const Grid = styled.div `
     .item_p {
         font-size:10px;
     }
+
+    .item_img {
+        width:30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 `
 
 const Sdata = [
@@ -39,7 +50,8 @@ const Sdata = [
         sname: "Nike Jordan1",
         city: "Chicago",
         price: "0.25 ETH",
-        img:"Sneakers"
+        img:sneakers,
+        bgColor: "#BD1550",
     },
     {
         id:2,
@@ -48,15 +60,18 @@ const Sdata = [
         sname: "Bright Blue",
         city: "Chicago",
         price: "0.25 ETH",
-        img:"allstars.png"
+        img:brightBlue,
+        bgColor: "#26ADE4",
     },
     {
         id:3,
         id_no:"#00003",
         date: "11.01.22",
-        sname: "Bright Blue",
+        sname: "All Stars",
         city: "Lightening McQueen",
-        price: "0.25 ETH"
+        price: "0.25 ETH",
+        img:allstars,
+        bgColor: "#FF9C00",
     },
     {
         id:4,
@@ -64,7 +79,9 @@ const Sdata = [
         date: "11.01.22",
         sname: "Black Menta",
         city: "Chicago",
-        price: "0.25 ETH"
+        price: "0.25 ETH",
+        img:yeezy,
+        bgColor: "#343838",
     },
     {
         id:5,
@@ -72,8 +89,11 @@ const Sdata = [
         date: "11.01.22",
         sname: "Black Menta",
         city: "Chicago",
-        price: "0.25 ETH"
-    }
+        price: "0.25 ETH",
+        img:airMax,
+        bgColor: "#E8D5B9",
+    },
+
 ]
 
 
@@ -82,12 +102,12 @@ const Layout = () => {
         <Grid>
             {
             Sdata.map(item => (
-                <div className="content1" key={item.id}>
+                <div className="content1" key={item.id} style={{background: item.bgColor}}>
                     <div className="item_flex">
                         <p className='item_p'>{item.id_no}</p>
                         <p className="item_p">{item.date}</p>
                     </div>
-                    <img src={images[item.img]} alt="" />
+                    <img src={item.img} alt="img" className='item_img'/>
                     <p>{item.city}</p>
                     <h3>{item.sname}</h3>
                     <p>{item.price}</p>
