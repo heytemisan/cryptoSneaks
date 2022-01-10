@@ -147,9 +147,9 @@ const Layout = () => {
                         <p className="item_p">{item.date}</p>
                     </div>
                     <img src={item.img} alt="img" className='item_img'/>
-                    <p>{item.city}</p>
-                    <h3>{item.sname}</h3>
-                    <p>{item.price}</p>
+                    <p className='item_city'>{item.city}</p>
+                    <h3 className="item_name">{item.sname}</h3>
+                    <p className="item_price">{item.price}</p>
                 </div>
             ))
             }
