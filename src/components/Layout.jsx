@@ -48,8 +48,18 @@ const Grid = styled.div `
         font-family: 'IndustrialRegular'; 
     }
 
-    .item_price {
+    .item_city {
+        color:#fff;
+        font-family: 'IndustrialRegular'; 
+        font-weight:800;
+    }
 
+    .item_price {
+        color:#fff;
+        font-family: 'IndustrialRegular'; 
+        font-weight:800;
+        font-size:1rem;
+        padding-bottom:5px;
     }
 
     .item_img {
@@ -156,8 +166,8 @@ const Layout = () => {
                         <p className="item_p">{item.date}</p>
                     </div>
                     <img src={item.img} alt="img" className='item_img'/>
-                    <p className='item_city'>{item.city}</p>
-                    <h3 className="item_name">{item.sname}</h3>
+                    <p className="item_name">{item.sname}</p>
+                    <h3 className='item_city'>{item.city}</h3>
                     <p className="item_price">{item.price}</p>
                 </div>
             ))
