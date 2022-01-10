@@ -57,7 +57,8 @@ button {
   border: none;
   cursor: pointer;
   height: 48px;
-  width: 120px;
+  width: 60px;
+  margin-right:10px
 }
 
 .span {
