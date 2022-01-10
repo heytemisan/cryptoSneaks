@@ -12,7 +12,7 @@ import allstar from '../assets/allstar.png'
 const Grid = styled.div `
     display:grid;
     grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
-    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
     grid-gap: 0.4rem;
     background-color: white;
     padding-left:40px;
