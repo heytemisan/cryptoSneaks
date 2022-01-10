@@ -10,6 +10,11 @@ function Header() {
                 <img src={sneakerLogo} alt="shoe" className='sneakers'/>
             </header>       
             <SubHeader/>
+            <p className="description"><span>CryptoSneaks™</span> are meticously handmade digital shoes</p>
+            <form action="">
+                <input type="email" placeholder="you@yourmail.com"/>
+                <button type="submit">Sign Me Up</button>
+            </form>
         </div>
     )
 }

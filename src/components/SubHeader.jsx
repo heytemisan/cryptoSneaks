@@ -4,10 +4,12 @@ import styled from 'styled-components';
 const Header = styled.div `
     font-family: 'IndustrialRegular'; 
     width: 400px;
+    height: 18vh;
     align-content: center;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    flex-direction: column;
 
     h1 {
         text-align:center;
