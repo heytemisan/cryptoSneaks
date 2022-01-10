@@ -17,11 +17,6 @@ const Grid = styled.div `
     display:grid;
     grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
     grid-template-rows: 300px 300px 300px 300px;
-    grid-template-areas: 
-    "nav nav nav nav"
-    "sidebar main main main"
-    "sidebar content1 content2 content3"
-    "sidebar footer footer footer";
     grid-gap: 0.4rem;
     background-color: white;
     padding-left:40px;
@@ -37,6 +32,7 @@ const Grid = styled.div `
     .item_flex {
         display:flex;
         justify-content:space-between;
+        color:#3E4147;
     }
 
     .item_p {
@@ -68,6 +64,12 @@ const Grid = styled.div `
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    @media screen and (max-width: 480px) {
+        @media screen and (max-width: 550px) {
+                grid-template-columns: 1fr;
+                grid-template-rows:0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
     }
 `
 
