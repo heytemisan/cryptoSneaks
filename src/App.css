@@ -2,6 +2,11 @@
   
 } */
 
+.header {
+  padding-left: 10px;
+  padding-left: 10px;
+}
+
 header {
   font-family: 'PixelOperatorMonoHBRegular'; 
   display: flex;
@@ -69,4 +74,17 @@ button {
 
 .content1 {
   background-color:brown
+}
+
+@media screen and (max-width:480px) {
+  .description {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.span {
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 }

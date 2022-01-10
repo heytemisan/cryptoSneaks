@@ -3,14 +3,10 @@ import styled from 'styled-components';
 import allstars from '../assets/allstars.png';
 import brightBlue from '../assets/brightBlue.png';
 import sneakers from '../assets/sneakers.png';
-import yeezy from '../assets/yeezy.png';
 import airMax from '../assets/airMax.png';
-
 import reebok from '../assets/reebok.png';
-import puma from '../assets/puma.png';
 import gucci from '../assets/gucci.png';
 import adidass from '../assets/adidass.png'
-import jordan from '../assets/jordan.png'
 import allstar from '../assets/allstar.png'
 
 const Grid = styled.div `

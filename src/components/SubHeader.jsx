@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Header = styled.div `
     font-family: 'IndustrialRegular'; 
-    width: 400px;
+    // width: 400px;
     height: 18vh;
     align-content: center;
     display: flex;
@@ -15,6 +15,13 @@ const Header = styled.div `
         text-align:center;
         font-size:3rem;
     }
+    @media screen and (max-width:480px) {
+      
+        h1 {
+            font-size:2.5rem;
+        }
+    }
+
 `
 
 const subHeader = () => {
